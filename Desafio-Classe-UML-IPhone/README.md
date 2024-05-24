@@ -1,6 +1,6 @@
 # Desafio Classe UML - iPhone
 
-Este projeto é uma representação UML de um iPhone, abrangendo suas funcionalidades: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet como `Intefaces`, um conceito muito importante da Orientação a Objetos no Java!.
+Este projeto é uma representação UML de um iPhone, abrangendo suas funcionalidades: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet como `Interfaces`, um conceito muito importante da Orientação a Objetos no Java!.
 
 Aonde o iPhone contém múltiplas funções, as quais antes dele, eram contidas em aparelhos separados. Em linguagem de programação, dizemos que a nossa classe iPhone implementa várias funcionalidades, as quais serão citadas abaixo:
 ## Funcionalidades
