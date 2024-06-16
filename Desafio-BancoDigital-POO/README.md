@@ -2,7 +2,7 @@
 
 ## Resumo
 
-Olá! Este projeto visa exercitar o uso do paradigma Orientação a Obejtos, utilizando Classes Abstratas, Herança e Interfaces, O programa simula um gerenciamento de um Banco, com operações de Saque, Depósito e Transferência!
+Olá! Este projeto visa exercitar o uso do paradigma Orientação a Obejtos, utilizando Classes Abstratas, Herança e Interfaces. Além de utilizar da estrutura MVC. O programa simula um gerenciamento de um Banco, com operações de Saque, Depósito e Transferência!
 
 ## Funcionalidades
 
