@@ -1,0 +1,50 @@
+# Relatório Técnico – Proposta de Implantação de Cloud
+
+Data: 03/09/2025
+Empresa: Abstergo Industries
+Responsável: Gabriel Rigoni
+
+## Introdução
+A empresa Abstergo, atuando como hub de distribuição para farmácias, enfrenta atualmente desafios relacionados a custos de infraestrutura de TI, escalabilidade dos sistemas e confiabilidade dos serviços.  
+Diante disso, foi solicitado o estudo e a proposta de implantação de um sistema baseado em **Cloud Computing**, utilizando soluções da Amazon Web Services (AWS), com foco em **reduzir custos** e **maximizar ganhos operacionais**.
+
+## Descrição do Projeto
+O objetivo do projeto é migrar partes estratégicas da infraestrutura da empresa para a **nuvem AWS**, adotando ferramentas que tragam maior eficiência no gerenciamento de dados, alta disponibilidade, escalabilidade sob demanda e redução de gastos com hardware local.  
+A proposta considera em 3 etapas, escolhidas pelo impacto direto em custos e ganhos de produtividade.
+
+---
+
+## Etapas do Projeto
+
+### 1. **AWS Lambda**
+- **Descrição**: Serviço de computação serverless (sem servidor dedicado). Executa funções sob demanda, sem necessidade de manter servidores ativos.  
+- **Caso de Uso**:  
+  Em vez de rodar sistemas em servidores que ficam ligados 24h, a empresa poderá usar o Lambda para executar rotinas específicas, como: processamento de pedidos, envio de relatórios, integração de dados e automação de tarefas administrativas.  
+  Isso reduz custos, pois a cobrança acontece **apenas pelo tempo de execução do código**, eliminando gastos com máquinas ociosas.
+
+---
+
+### 2. **Amazon RDS (Relational Database Service)**
+- **Descrição**: Serviço de banco de dados relacional gerenciado (MySQL, PostgreSQL, SQL Server, etc.).  
+- **Caso de Uso**:  
+  O controle de estoque e vendas da empresa depende fortemente de bancos de dados. Com o RDS, a empresa terá um banco de dados escalável, seguro e com backups automáticos, eliminando custos de licenciamento e administração local. Isso aumenta a confiabilidade e garante alta disponibilidade dos dados.
+
+---
+
+### 3. **Amazon S3 (Simple Storage Service)**
+- **Descrição**: Serviço de armazenamento de objetos altamente durável e escalável.  
+- **Caso de Uso**:  
+  Documentos fiscais, notas de distribuição e relatórios gerenciais poderão ser armazenados no S3 de forma segura, com custo reduzido em relação a soluções locais. O S3 também facilita o compartilhamento de dados entre parceiros e garante redundância geográfica, reduzindo riscos de perda de informações.
+
+---
+
+## Conclusão
+Com a adoção das soluções **Lambda**, **RDS** e **S3**, a empresa farmacêutica terá como principais ganhos:  
+- **Redução significativa de custos** com servidores ociosos e infraestrutura local.  
+- **Maior disponibilidade** e confiabilidade dos sistemas.  
+- **Escalabilidade sob demanda**, acompanhando o crescimento da empresa.  
+- **Segurança e backup automatizado**, garantindo integridade das informações.  
+
+Essa primeira fase de implantação representa um passo estratégico para modernizar a operação da empresa, trazendo maior eficiência e competitividade no mercado.
+
+---
